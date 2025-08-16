@@ -30,4 +30,45 @@ It also highlights how a serverless workflow can streamline analytics for datase
   
     - The `%sql sqlite:///TMDB.db` establish a connection to the local database using the '%sql' magic command.
 
-   
+2. **Exploratory Queries**
+
+    - **Investigated movie metadata:** oldest movies, most popular genres, and companies with the highest average popularity.
+    
+    - Explored **actor/actress details**: roles played by **Vin Diesel**, movies featuring **Alan Rickman**, and award nominations for actors.
+    
+    - Analyzed **Oscar awards data**: identifying winners, normalizing inconsistent year formats, and counting unique award categories.
+  
+3. **Analytical Tasks**
+
+    - Found movies between certain release dates with budget and popularity constraints.
+    
+    - Calculated intersections of genres and keywords (e.g., Thriller movies containing “love”).
+    
+    - Examined female actors with names starting with “**N**”.
+    
+    - Checked which award categories had the highest number of actor nominations.
+  
+4. **Data Integrity & Cleaning**
+
+    - Addressed formatting inconsistencies (e.g., Oscars year field pre-1934).
+    
+    - Ensured normalization concepts were understood (avoiding redundancy, ensuring uniqueness, reducing anomalies).
+  
+5. **Presentation & Portfolio**
+
+    - Queries were modularized into `.sql` files for reuse.
+    
+    - Results were exported as `.csv` and presented in tables within the **README** using Markdown.
+    
+    - Explanations and insights were documented alongside queries for storytelling in data analysis.
+
+| Query ID | Question | SQL File | Result |
+|----------|----------|----------|--------|
+| Q1       | Thriller movies with "love" in keywords | [query1.sql](queries/query1.sql) | [Result](results/query1_result.csv) |
+| Q2       | Movies released 2006–2009 with budget < 50M & popularity > 40 | [query2.sql](queries/query2.sql) | [Result](results/query2_result.csv) |
+| Q3       | Top 3 production companies by avg popularity | [query3.sql](queries/query3.sql) | [Result](results/query3_result.csv) |
+
+
+
+
+
