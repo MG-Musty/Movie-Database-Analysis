@@ -1,5 +1,7 @@
 # 🎬 Movie Database Analysis (Serverless SQL with Jupyter Notebook)
 
+<img src="https://github.com/Explore-AI/Pictures/blob/master/sql_tmdb.jpg?raw=true" width=80%/>
+
 # 📖 Project Overview
 
 This project explores the Movie Database (TMDB) using a serverless SQL approach within a Jupyter Notebook environment. 
@@ -19,6 +21,12 @@ It also highlights how a serverless workflow can streamline analytics for datase
   - **SQLite:** Lightweight, file-based relational database engine used as the backend (no dedicated server required).
 
   - **GitHub:** To publish the project as a portfolio, including SQL scripts, query results, and analysis reports.
+
+Below is an Entity Relationship Diagram (ERD) of the TMDb database:
+
+<img src="https://github.com/Explore-AI/Pictures/blob/master/TMDB_ER_diagram.png?raw=true" width=70%/>
+
+As can be seen from the ERD, the TMDb database consists of `12 tables` containing information about movies, cast, genre, and so much more.
 
 # 🚀 Approach
 
