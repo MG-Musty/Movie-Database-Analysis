@@ -70,12 +70,23 @@ As can be seen from the ERD, the TMDb database consists of `12 tables` containin
     
     - Explanations and insights were documented alongside queries for storytelling in data analysis.
 
-| Query ID | Question | SQL File | Result |
-|----------|----------|----------|--------|
-| Q1       | Thriller movies with "love" in keywords | [query1.sql](queries/query1.sql) | [Result](results/query1_result.csv) |
-| Q2       | Movies released 2006–2009 with budget < 50M & popularity > 40 | [query2.sql](queries/query2.sql) | [Result](results/query2_result.csv) |
-| Q3       | Top 3 production companies by avg popularity | [query3.sql](queries/query3.sql) | [Result](results/query3_result.csv) |
+## 📑 Project Table of Contents
 
+| #  | Question                                                                 | Query and Solution |
+|----|--------------------------------------------------------------------------|---------------------|
+| 1  | Who won the Oscar for “Actor in a Leading Role” in 2015?                 | [Query_1.ipynb](notebooks/Query_1.ipynb) |
+| 2  | What query will produce the ten oldest movies in the database?           | [Query_2.ipynb](notebooks/Query_2.ipynb) |
+| 3  | How many unique awards are there in the Oscars table?                    | [Query_3.ipynb](notebooks/Query_3.ipynb) |
+| 4  | How many movies are there that contain the word “Spider” within their title? | [Query_4.ipynb](notebooks/Query_4.ipynb) |
+| 5  | How many movies are there that are both in the "Thriller" genre and contain the word “love” anywhere in the keywords? | [Query_5.ipynb](notebooks/Query_5.ipynb) |
+| 6  | How many movies are there that were released between 1 August 2006 ('2006-08-01') and 1 October 2009 ('2009-10-01') that have a popularity score of more than 40 and a budget of less than 50 000 000?                 | [Query_6.ipynb](notebooks/Query_6.ipynb) |
+| 7  | How many unique characters has "Vin Diesel" played so far in the database?           | [Query_7.ipynb](notebooks/Query_7.ipynb) |
+| 8  | What are the genres of the movie “The Royal Tenenbaums”?                    | [Query_8.ipynb](notebooks/Query_8.ipynb) |
+| 9  | What are the three production companies that have the highest movie popularity score on average, as recorded within the database? | [Query_9.ipynb](notebooks/Query_9.ipynb) |
+| 10  | How many female actors (i.e. gender = 1) have a name that starts with the letter "N"?                | [Query_10.ipynb](notebooks/Query_10.ipynb) |
+| 11  | Which genre has, on average, the lowest movie popularity score?           | [Query_11.ipynb](notebooks/Query_11.ipynb) |
+| 12  | Which award category has the highest number of actor nominations (actors can be male or female)? (Hint: Oscars.name contains both actors' names and film names.)                    | [Query_12.ipynb](notebooks/Query_12.ipynb) |
+| 13  | DStv will be having a special week dedicated to the actor Alan Rickman. Write a query that would create a new view that shows the titles, release dates, taglines, and overviews of all movies that Alan Rickman has played in? | [Query_13.ipynb](notebooks/Query_13.ipynb) |
 
 
 
